@@ -1,0 +1,56 @@
+
+  .card {
+    transform-style: preserve-3d;
+    position: relative;
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    margin-top: 30px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(
+      25deg,
+      rgb(21, 126, 163) 0%,
+      rgba(217, 91, 46, 0.794) 86%
+    );
+    transition: all 0.1s ease;
+  }
+
+  .title,
+  .card p {
+    width: 100%;
+    color: rgb(220, 220, 220);
+  }
+ 
+  .card img {
+    width: 200px;
+    height: 300px;
+  }
+  .button-box {
+    width: 100%;
+  }
+  .purchase {
+    opacity: 100%;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: rgba(217, 91, 46, 0.95);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+  .purchase:hover {
+    background-color: rgb(21, 126, 163);
+  }
+  

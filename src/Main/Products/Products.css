@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+  }
+
+  .cards {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .btn0{
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(13, 103, 167);
+  color: white;
+  border-radius: 60px;
+  font-family: Garamond;
+  font-weight: 700;
+  
+  }
+  
+  .main h1{
+    font-size: 4rem;
+    font-weight: 700;
+  
+  }
+  
+  .btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(13, 103, 167);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+  }
+  .btn1:hover{
+    background-color: rgb(42, 196, 239);
+    transition: 0.5s;
+  }
+  
+  h1{
+    font-weight: 700;
+  
+  }
+  .card:hover{
+    box-shadow: -1px -1px 41px -24px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px -1px 41px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -1px 41px -24px rgba(0,0,0,0.75);
+  transition: 0.5s;
+  }
+  

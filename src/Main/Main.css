@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: Garamond;
+    border: 2px solid rgb(13, 103, 167);
+  
+  }
+  
+  .main{
+  
+    background: url(/Users/devuser/Desktop/cutfitters/public/fashion1.avif)no-repeat;
+    font-family: Garamond;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+  }
+  
+  .pt-5 {
+    background-color: rgba(255, 255, 255, 0.2)
+  }
+  
+  .col-lg-7 {
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-right: 700px;
+  }
+  
+  .explore-button {
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: rgba(217, 91, 46, 0.794);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+
+  .explore-button:hover{
+    background-color: rgb(21, 126, 163);
+    transition: 0.5s;
+  }
+  
+  h1{
+    font-weight: 700;
+  
+  }
+  .card:hover{
+    box-shadow: -1px -1px 41px -24px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -1px -1px 41px -24px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px -1px 41px -24px rgba(0,0,0,0.75);
+  transition: 0.5s;
+  }
+  
+  footer {
+    font-family: 'Times New Roman', Times, serif;
+  }
+  

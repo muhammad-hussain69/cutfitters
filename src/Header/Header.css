@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+  }
+  
+  .container {
+    margin: 0px;
+    padding: 10px;
+  }
+
+  .navbar-brand{
+    font-size: 2rem;
+    color: rgba(0, 100, 250, 0.794);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .navbar-brand:hover{
+    color: rgb(13, 103, 167);
+  }
+
+  .nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Times New Roman', sans-serif;
+    text-align: center;
+  }
+  
+  .nav-link:hover{
+    color: rgba(217, 91, 46, 0.794);
+  }
+  
+  .product {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  .search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: Garamond;
+    text-align: center;
+    border: 2px solid rgba(217, 91, 46, 0.794);
+  
+  }
+  
+  .btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: rgba(217, 91, 46, 0.794);
+  color: white;
+  border-radius: 60px;
+  font-family: Garamond;
+  font-weight: 700;
+  
+  }
+  
+  .btn0:hover {
+    background-color: rgb(30, 156, 202);
+    transition: 0.5s;
+  }
+
+  .col-lg-7 {
+    text-align: center;
+  }
+ 
